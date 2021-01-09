@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <CategoryForm />
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CategoryForm from './components/category/CategoryForm.vue'
+import Chart from './components/TestChart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CategoryForm,
+    Chart
   }
 }
 </script>
